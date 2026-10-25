@@ -1,0 +1,24 @@
+{
+  "name": "nous-etions-la",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "description": "Exposition photographique NOUS ÉTIONS LÀ — collection personnelle et mosaïque collective en direct",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node scripts/test-unit.mjs",
+    "qr": "node scripts/generate-qr.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/archivo": "^5.1.0",
+    "@fontsource-variable/source-serif-4": "^5.1.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "jsqr": "^1.4.0",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
